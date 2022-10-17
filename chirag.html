@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</head>
+<body>
+
+   
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+        <img src="images/chirag_logo.jpg">
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+
+      <div class="collapse navbar-collapse " id="navbarTogglerDemo01">
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#donate" class="nav-link">Donate</a></li>
+            <li class="nav-item"><a href="#footer" class="nav-link">Contact Us</a></li>
+             
+        </ul>
+    </div>
+       
+       </nav>
+
+       <div class="text-box">
+
+        <div class="text-content">
+            <h1 id="chirag">CHIRAG</h1>
+            <P>Chirag is an initiative which was <br> started by <a href="https://ncechandi.ac.in/" target="_blank">NCE</a>ians it is the non profitable initiative. <br> Moto of the initiative is to provide quality education to those students <br> who can not afford the quality education in this expensive era. There are many studens who are grabing education <br> free of cost.
+              </P>
+        </div>
+       </div>
+
+      <div id="about">
+
+        <div class="row">
+            <h1 style="text-align:center;">Know more about chirag</h1>
+            <div class=" col-md-3 color my-3"  >
+                <h3>About</h3>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam itaque eum expedita dolor fugit ipsum ex et assumenda corporis harum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam itaque eum expedita dolor fug</p>
+
+                </div>
+            <div class=" col-md-3 color my-3"  >
+                <h3>Our Moto</h3>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam itaque eum expedita dolor fugit ipsum ex et assumenda corporis harum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam itaque eum expedita dolor fug</p>
+
+                </div>
+            <div class=" col-md-3 color my-3"  >
+                <h3>Active Members</h3>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam itaque eum expedita dolor fugit ipsum ex et assumenda corporis harum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam itaque eum expedita dolor fug</p>
+
+                </div>
+
+
+
+
+        </div>
+      </div>
+
+
+      <div id="donate">
+        <h1><span>D</span>onate</h1>
+        <h4>4 a better world</h4>
+
+        <p style="line-height:2em;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quaerat neque ea veniam ipsam nesciunt ullam. Repellendus velit quae dolorum aliquam nulla et error, suscipit perspiciatis pariatur ex quidem dicta, voluptatum voluptates numquam nostrum. A veniam officia sequi, iusto debitis, accusamus explicabo sit fugiat repellat, provident mollitia. Voluptates asperiores totam libero laboriosam iure, earum quibusdam provident odio officiis, ex natus sint illum ullam molestiae pariatur aspernatur nesciunt accusantium veritatis! Veniam!</p>
+
+        <button type="button" class="btn btn-danger btn-lg" id="display-btn">Donate Now</button>
+        <!-- <button type="button" class="btn btn-secondary btn-lg"><a href="#">Read More</a></button> -->
+
+        <div class="donate-box" id="display-box">
+           <div class="donate-details">
+            <h3 style="color:black; font-weight:500">Please scan QR-Code for donation</h3>
+            <img src="images/qrcode.webp">
+            <h4 style="margin-top:5px; color:black; font-weight:500"> Fill your transaction details below</h4>
+
+
+            <center>
+                <form action="" id="form">
+                    <input type="text" class="form-control" placeholder="Enter your Name:" required>
+                    <input type="number" class="form-control" name="" id="" placeholder="Enter your Account Number" required>
+                    <input type="text/number" class="form-control" placeholder="Enter transaction UTR NO." required>
+                </form>
+
+                <button type="button" class="btn btn-light" id="hide-btn" onclick="myFunction()">Submit</button>
+
+    
+            </center>
+
+           </div>
+        </div>
+              </div>
+
+
+              <div id="footer">
+                <div class="row">
+                    <div class="col-md-3 col-footer"b style=" border-right:1px solid white;">
+                        <i class="fa fa-map-marker" aria-hidden="true" style="font-size:2rem;"></i>
+                       <p style="font-size:12px;"> chandi,Patna,Bihar <br>Near BDO Office <br>Chandi-86887</p>
+                    </div>
+
+                    <div class="col-md-3 col-footer col-footer-2" style=" border-right:1px solid white;" >
+                        <h6>contact us via social media</h6>
+                      
+                        <i class="fa fa-facebook-official" aria-hidden="true"><p>Facebook</p> </i>
+                        <i class="fa fa-instagram" aria-hidden="true"><p>Instagram</p></i>
+                        <i class="fa fa-linkedin-square" aria-hidden="true"><p>Linkedin</p></i>
+                        <i class="fa fa-youtube-play" aria-hidden="true"><p>Youtube</p></i>
+                    </div>
+
+
+                    <div class="col-md-3 col-footer">
+                       <h6>Contact Us</h6>
+                      
+                       
+                      <center> <form style="width:200px; align-items:center">
+                        <input type="email" class="form-control" placeholder="Enter your email" style="width:100%; outline:none;">
+                        <textarea name="textarea" class="form-control" id="" cols="50"  rows="2" style=" width:100%; outline: none;"  placeholder="Enter your message"></textarea>
+                       </form></center>
+                    </div>
+                </div>
+              </div>
+
+
+       <script>
+
+// var blink_speed = 500; // every 1000 == 1 second, adjust to suit
+// var t = setInterval(function () {
+//     var ele = document.getElementById('chirag');
+//     ele.style.visibility = (ele.style.visibility == 'hidden' ? '' : 'hidden');
+// }, blink_speed);
+
+let displayBtn = document.getElementById("display-btn");
+let displayBox = document.getElementById("display-box");
+let hideBtn = document.getElementById("hide-btn");
+
+displayBtn.onclick = function(){
+    displayBox.style.display = "block";
+}
+
+hideBtn.onclick = function(){
+    displayBox.style.display = "none";
+    alert("your details has been submited");
+}
+
+function myFunction() {
+  document.getElementById("form").reset();
+}
+
+       </script>
+</body>
+</html>
